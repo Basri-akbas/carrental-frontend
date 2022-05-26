@@ -23,7 +23,7 @@ const VehicleDetailsPage = () => {
   return (
     <>
     <PageHeader title={selectedVehicle.model}/>
-    <Spacer/>
+  <Spacer/>
     <VehicleDetails vehicle={selectedVehicle}/>
     <Spacer/>
     <VehicleBookingForm/>
