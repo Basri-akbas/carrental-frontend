@@ -7,6 +7,7 @@ const getReservations = () => {
   return axios.get(`${API_URL}/reservations/admin/all`, { headers: authHeader() });
 };
 
+
 const getReservation = (id) => {
   return axios.get(`${API_URL}/reservations/${id}/admin`, { headers: authHeader() });
 };
